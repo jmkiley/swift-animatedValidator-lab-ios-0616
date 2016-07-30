@@ -6,6 +6,8 @@
 //  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
+// Need to do constraints
+
 import UIKit
 
 class ValidatorViewController: UIViewController, UITextFieldDelegate {
@@ -46,18 +48,6 @@ class ValidatorViewController: UIViewController, UITextFieldDelegate {
         self.passwordConfirmTextField.delegate = self
         
     }
-    //    func textFieldDidEndEditing(textField: UITextField) {
-    //
-    //        if isInputValid(textField) {
-    //            textField.backgroundColor = UIColor.whiteColor()
-    //            print("\(textField) is good")
-    ////            submitEnabled()
-    //        }
-    //        if self.emailIsValid && self.emailConfirmationIsValid && self.numberIsValid && self.passwordConfirmationIsValid && self.passwordIsValid {
-    //            submitButton.enabled = true
-    //            print("YAY!")
-    //        }
-    //    }
     
     
     func textFieldDidEndEditing(textField: UITextField) {
